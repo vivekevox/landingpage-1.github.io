@@ -262,6 +262,19 @@ a.white {
 	transition: all 0.2s ease;
 }
 
+.cloud{
+    /*background-color: #fff;*/
+    border-radius: 20px;
+    border: 1px solid #ccd3df;
+    
+}
+.cloud:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px #e2e2e2;
+    border: none;
+}
+
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
 	.label-control {
