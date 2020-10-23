@@ -1651,7 +1651,54 @@ a:hover.back-to-top {
 
 /*****************************/
 /*     19. Media Queries     */
-/*****************************/	
+/*****************************/
+
+
+/* Min-width width 300px */
+@media (min-width: 300px) {
+
+/* Testimonials */
+
+
+.slider-2 .slider-container {
+    width: 20.125rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}
+
+/* Min-width width 400px */
+@media (min-width: 400px) {
+
+/* Testimonials */
+
+
+.slider-2 .slider-container {
+    width: 20.125rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}
+
+
+/* Min-width width 600px */
+@media (min-width: 600px) {
+
+/* Testimonials */
+
+
+.slider-2 .slider-container {
+    width: 30.125rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}
+
+
+
 /* Min-width width 768px */
 @media (min-width: 768px) {
 	
@@ -1692,6 +1739,15 @@ a:hover.back-to-top {
 
 
 	/* Testimonials */
+
+
+.slider-2 .slider-container {
+    width: 40.125rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 	.slider-2 .swiper-button-prev {
 		width: 1.375rem;
 		background-size: 1.375rem 2.125rem;
